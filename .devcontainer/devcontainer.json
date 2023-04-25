@@ -4,10 +4,10 @@
     "build": {
       // 컨테이너 기본 이미지 설정
       "dockerfile": "./Dockerfile",
-      "context": ".",
-      "args": {
-        "VARIANT": "7.0"
-      }
+      "context": "."
+      // "args": {
+      //   "VARIANT": "7.0"
+      // }
     },
     
     "forwardPorts": [
@@ -59,8 +59,8 @@
             "GitHub.copilot-labs",
 
             // C# 관련
-            "ms-dotnettools.vscode-dotnet-pack",
-            "kreativ-software.csharpextensions",
+            // "ms-dotnettools.vscode-dotnet-pack",
+            // "kreativ-software.csharpextensions",
 
             // Azure 관련
             "ms-vscode.vscode-node-azure-pack",
